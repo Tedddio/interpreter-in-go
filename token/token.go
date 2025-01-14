@@ -12,6 +12,14 @@ const (
 	ASSIGN = "="
 	PLUS   = "+"
 
+	MINUS    = "-"
+	BANG     = "!"
+	ASTERISK = "*"
+	SLASH    = "/"
+
+	LT       = "<"
+	GT       = ">"
+
 	// Delimiters
 	COMMA     = ","
 	SEMICOLON = ";"
@@ -43,4 +51,3 @@ func LookupIdent(ident string) TokenType {
 	}
 	return IDENT
 }
-
