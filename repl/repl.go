@@ -3,9 +3,9 @@ package repl
 import (
 	"bufio"
 	"fmt"
-	"io"
 	"interpreter-in-go/lexer"
 	"interpreter-in-go/token"
+	"io"
 )
 
 const PROMPT = ">> "
