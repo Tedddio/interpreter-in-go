@@ -32,5 +32,5 @@ func untrace(msg string) {
 }
 
 func traceReturn(method string, returnValue string) {
-    tracePrint(method + " RETURNED: " + returnValue)
+    // tracePrint(method + " RETURNED: " + returnValue)
 }
